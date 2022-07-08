@@ -1,0 +1,29 @@
+[
+    {
+        "title": "GreenHive",
+        "image": "./assets/images/greenhive-project.jpg",
+        "url": "https://greenhive-com.herokuapp.com/",
+        "desc": "The GreenHive project was a collaborative team effort between me, Aswathy Ajesh, and Allen Bey. The motivation for this project was to create an maintain a cleaner world."
+    },
+
+    {
+        "title": "Cosmic Colliders",
+        "image": "./assets/images/cosmic-colliders-project.jpg",
+        "url": "https://william-horn.github.io/cosmic-colliders/",
+        "desc": "Cosmic Colliders was a collaborative effort brought to you by four bright new developers in the making: myself, Amy Nikitas, James Primitive (Christopher James Hoke), and Gabrielle Befort. We came together to bring to you a cool space application that serves as both a studying tool for students /space enthusiasts, and for the general public."
+    },
+
+    {
+        "title": "My Weather Dashboard",
+        "image": "./assets/images/weather-dash-project.jpg",
+        "url": "https://william-horn.github.io/my-weather-dashboard/",
+        "desc": "Welcome to My Weather Dashboard! Your own personal current and 5-day forecast reader for PC and mobile devices!"
+    },
+
+    {
+        "title": "Noisy Search Demo",
+        "image": "./assets/images/noisy-search-project.png",
+        "url": "https://william-horn.github.io/noisy-search-demo/",
+        "desc": "Submit a word and attempt to generate it randomly using a pseudo-random generator!"
+    }
+]

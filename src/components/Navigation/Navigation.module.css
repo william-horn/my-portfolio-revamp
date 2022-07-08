@@ -1,0 +1,37 @@
+
+.navContainer {
+    background-color: var(--themeSecondaryColor);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+}
+
+.navContainer button {
+    background: none;
+}
+
+.navContainer a[state='inactive'],
+.navContainer a[state='active'] {
+    --hoverFilterTransition: filter 0.3s;
+
+    /* background-color: var(--themeColor3); */
+    background: var(--themeColor7);
+    font-size: 1.2rem;
+    padding: 10px;
+    color: var(--themeColor5);
+    margin: 5px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: 900;
+    transition: var(--hoverFilterTransition);
+}
+
+.navContainer a[state='active'] {
+    filter: sepia();
+}
+
+.navContainer a:hover {
+    transition: var(--hoverFilterTransition);
+    filter: sepia();
+}

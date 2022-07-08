@@ -1,0 +1,77 @@
+
+
+
+.headerContainer {
+    background-color: var(--themePrimaryColor);
+    position: relative;
+}
+
+.headerBackgroundImg {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    filter: grayscale(1);
+}
+
+.headerContent {
+    position: relative;
+    justify-content: center;
+}
+
+.portfolioContacts {
+    --paddingValue: 10px;
+    --borderRadius: 15px;
+
+    /* filter: brightness(50%); */
+    border-radius: var(--borderRadius);
+    /* box-shadow: 0 0 10px black; */
+    flex: 1;
+}
+
+.portfolioName {
+    color: var(--themeColor5);
+    /* background-color: var(--themePrimaryColor); */
+    background: var(--themeColor7);
+    display: inline;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 1.4rem;
+    padding: var(--paddingValue);
+    border-top-left-radius: var(--borderRadius);
+    border-top-right-radius: var(--borderRadius);
+}
+
+.portfolioContacts > div {
+    word-break: break-all;
+    background-color: var(--themePrimaryColor);
+    padding: var(--paddingValue);
+    border-top-right-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
+
+    flex: 1;
+}
+
+.portfolioContacts > div p {
+    font-size: 1rem;
+    color: #9f9f9f;
+}
+
+.portfolioContacts > div p a {
+    text-decoration: underline;
+    color: #b2a180;
+}
+
+.profileImg {
+    --size: 200px;
+
+    /* border: 4px solid var(--themeColor3); */
+    box-shadow: 0 0 15px black;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    width: var(--size);
+    height: var(--size);
+}

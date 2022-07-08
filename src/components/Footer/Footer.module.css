@@ -1,0 +1,11 @@
+
+footer {
+    /* background-color: var(--themeColor7); */
+    background: var(--themeColor8);
+    height: 200px;
+    margin-top: 150px;
+}
+
+footer p {
+    font-size: 1rem;
+}

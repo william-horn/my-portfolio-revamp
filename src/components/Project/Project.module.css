@@ -1,0 +1,22 @@
+
+
+.projectTitle {
+    color: #54cc8c;
+    text-decoration: underline;
+}
+
+.projectImg {
+    width: 60%;
+    height: 300px;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+
+@media screen and (max-width: 600px) {
+    .projectImg {
+        width: 100%;
+    }
+}
