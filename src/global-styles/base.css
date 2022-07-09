@@ -45,6 +45,41 @@ h3 {
     font-size: 2rem;
 }
 
+button[type="submit"] {
+    font-size: 1.4rem;
+    padding: 5px 15px;
+    font-family: monospace;
+    border: 0;
+    background-color: #37485b;
+    color: white;
+}
+
+label {
+    font-size: 1.3rem;
+    font-family: monospace;
+    display: block;
+    text-align: left;
+}
+
+input,
+textarea {
+    background-color: #0a0a0a;
+    border: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: white;
+    outline: none;
+    /* border: 2px solid var(--theme-primary-background-color); */
+    padding: 8px 10px;
+    font-family: monospace;
+    width: 100%;
+    /* font-family: var(--theme-input-text-font); */
+}
+
+textarea {
+    resize: none;
+}
+
 .wrapper {
     background-color: var(--themeColor6);
     min-height: 100vh;

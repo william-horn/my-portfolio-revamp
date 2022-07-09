@@ -241,6 +241,28 @@ todo: Play with optimizing media query break points for most optimal responsive 
     font-size: calc(var(--fontSizeIncrement)*10);
 }
 
+
+/* 
+    ? note: work in progress
+*/
+
+/* .on-col-8-become-10-small {
+    width: calc(100%/12*10);
+} */
+
+/* .on-small-become-col-10 {
+    width: calc(100%/12*10);
+}
+
+.on-small-become-col-11 {
+    width: calc(100%/12*11);
+}
+
+.on-small-become-col-12 {
+    width: calc(100%);
+} */
+
+
 /*
     * utility: 'mg-n'
     General purpose margin
@@ -376,6 +398,17 @@ todo: Play with optimizing media query break points for most optimal responsive 
 /* small screens (col-4)*/
 @media screen and (max-width: 760px) {
 
+    .on-small-become-col-10 {
+        width: calc(100%/12*10);
+    }
+    
+    .on-small-become-col-11 {
+        width: calc(100%/12*11);
+    }
+    
+    .on-small-become-col-12 {
+        width: calc(100%);
+    }
 
 }
 

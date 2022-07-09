@@ -12,10 +12,9 @@ const Navigation = ({ onChange, state }) => {
             <div
             className={`${NavigationCSS.navContainer} flex-row-wrap flex-center`}>
                 {/* todo: find out if there's a more efficient way to distribute an event handler amongst the context children */}
-                <a state={getButtonState('home')} onClick={() => onChange('home')} href="#">Home</a>
+                <a state={getButtonState('aboutMe')} onClick={() => onChange('aboutMe')} href="#about-me-title">About Me</a>
                 <a state={getButtonState('projects')} onClick={() => onChange('projects')} href="#projects-title">Projects</a>
                 <a state={getButtonState('resume')} onClick={() => onChange('resume')} href="#resume-title">Resume</a>
-                <a state={getButtonState('aboutMe')} onClick={() => onChange('aboutMe')} href="#about-me-title">About Me</a>
                 <a state={getButtonState('contact')} onClick={() => onChange('contact')} href="#contacts">Contact</a>
             </div>
         </nav>

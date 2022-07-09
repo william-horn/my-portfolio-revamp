@@ -68,8 +68,6 @@ const App = () => {
 
     const getRenderedPage = () => {
         switch (navPage) {
-            case 'home':
-                return <Pages.AboutPage/>
             case 'aboutMe':
                 return <Pages.AboutPage/>
             case 'projects':
@@ -79,7 +77,8 @@ const App = () => {
             case 'contact':
                 return <Pages.ContactPage/>
             default:
-                return <div>Not found</div>;
+                // return <div>Not found</div>;
+                return <Pages.AboutPage/>
         }
     }
 
