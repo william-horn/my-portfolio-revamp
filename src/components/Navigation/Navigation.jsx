@@ -16,7 +16,7 @@ const Navigation = ({ onChange, state }) => {
                 <a state={getButtonState('projects')} onClick={() => onChange('projects')} href="#projects-title">Projects</a>
                 <a state={getButtonState('resume')} onClick={() => onChange('resume')} href="#resume-title">Resume</a>
                 <a state={getButtonState('aboutMe')} onClick={() => onChange('aboutMe')} href="#about-me-title">About Me</a>
-                <a state={getButtonState('contact')} onClick={() => onChange('contact')} href="#contact-me-title">Contact</a>
+                <a state={getButtonState('contact')} onClick={() => onChange('contact')} href="#contacts">Contact</a>
             </div>
         </nav>
     );

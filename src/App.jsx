@@ -76,22 +76,24 @@ const App = () => {
                 return <Pages.ProjectsPage projects={projects}/>
             case 'resume':
                 return <Pages.ResumePage/>
+            case 'contact':
+                return <Pages.ContactPage/>
             default:
                 return <div>Not found</div>;
         }
     }
 
     return (
+        <>
         <div className="wrapper">
             <Header/>
             <Navigation onChange={setNavPage} state={navPage}/>
             <main>
-                <FadeIn watchState={navPage}>
-                    {getRenderedPage()}
-                </FadeIn>
+                {getRenderedPage()}
             </main>
-            <Footer/>
         </div>
+        <Footer/>
+        </>
     );
 }
 
