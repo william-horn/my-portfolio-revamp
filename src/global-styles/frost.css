@@ -389,11 +389,16 @@ todo: Play with optimizing media query break points for most optimal responsive 
 /* padding utility classes end */
 
 
-/* x-small screens screens */
-@media screen and (max-width: 500px) {
+
+/* large screens (col-12)*/
+@media screen and (max-width: 1920px) {
 
 }
 
+/* medium screens (col-8)*/
+@media screen and (max-width: 1000px) {
+    
+}
 
 /* small screens (col-4)*/
 @media screen and (max-width: 760px) {
@@ -410,14 +415,17 @@ todo: Play with optimizing media query break points for most optimal responsive 
         width: calc(100%);
     }
 
+    .about-me-img {
+        width: 275px !important;
+    }
+
 }
 
-/* medium screens (col-8)*/
-@media screen and (max-width: 1000px) {
-    
-}
+/* x-small screens screens */
+@media screen and (max-width: 500px) {
 
-/* large screens (col-12)*/
-@media screen and (max-width: 1920px) {
+    .about-me-img {
+        width: 200px !important;
+    }
 
 }

@@ -14,7 +14,7 @@ const About = function() {
                 borderRadius: "20px"
             }} 
             src="./assets/images/about-me-img.jpg"
-            className="mg-5-top mg-10-bottom"
+            className="about-me-img mg-5-top mg-10-bottom"
             />
             <p className="paragraph text-size-3">
                 Hello! My name is Will. I'm a programmer and computer science enthusiast who spends most of his time
