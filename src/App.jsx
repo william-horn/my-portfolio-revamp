@@ -41,7 +41,7 @@ const App = () => {
         in the future, these states should probably be in lower-level components. i'm pretty sure
         whenever a page changes currently, the entire app is re-rendered.
     */
-    const [navPage, setNavPage] = useState('home');
+    const [navPage, setNavPage] = useState('aboutMe');
     const [projects, setProjects] = useState(projectList);
 
     // sync page names with aliases
