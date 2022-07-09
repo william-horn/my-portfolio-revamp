@@ -2,7 +2,7 @@
 import React from 'react';
 import MainLayout from './layouts/MainLayout';
 
-const About = function({ content }) {
+const About = function() {
     return (
         <MainLayout title="About Me">
             <p className="paragraph text-size-3">
