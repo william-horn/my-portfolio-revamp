@@ -16,9 +16,13 @@ const Resume = function() {
                 <li>HTML</li>
                 <li>React</li>
                 <li>CSS</li>
+                <li>Sequelize</li>
                 <li>Handlebars</li>
                 <li>JQuery</li>
                 <li>MySQL</li>
+                <li>NoSQL</li>
+                <li>MongoDB</li>
+                <li>Mongoose</li>
                 <li>Node.js</li>
                 <li>Git</li>
             </ul>
