@@ -16,6 +16,7 @@ const Resume = function() {
                 <li>HTML</li>
                 <li>React</li>
                 <li>CSS</li>
+                <li>GraphQL</li>
                 <li>Sequelize</li>
                 <li>Handlebars</li>
                 <li>JQuery</li>
